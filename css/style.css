@@ -1,0 +1,72 @@
+* {
+  font-family: 'Lucida Grande', sans-serif;
+  letter-spacing: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecebf1;
+}
+
+.header {
+  background-color: #3b5b94;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10em;
+  margin-right: 0.5em;
+}
+
+#create_account {
+  background-color: #42B72A;
+  color: white;
+  border: 0px;
+  padding: 0.75em 1em;
+  font-size: 0.75rem;
+  border-radius: 3px;
+}
+
+#create_account:hover {
+  background-color: #36A421;
+  cursor: pointer;
+}
+
+.connection_window {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 5px;
+  border: 0.5px solid #E5E9F2;
+  text-align: center;
+}
+
+.connection_window p {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  font-size: 1.1rem;
+}
+
+.connection_form p {
+  margin: 0.7em 0em;
+}
+
+.connection_form p input {
+  height: 30px;
+  width: 270px;
+  border: 1px solid #E5E9F2;
+  font-size: 0.8rem;
+  padding-left: 0.5em;
+}
+
+#connection_button {
+  background-color: #3b5b94;
+  color: white;
+}
