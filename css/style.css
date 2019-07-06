@@ -51,7 +51,7 @@ body {
 }
 
 .connect_message {
-  margin-top: 2em;
+  margin-top: 2.5em;
   margin-bottom: 1.5em;
   font-size: 1.1rem;
 }
@@ -61,7 +61,7 @@ body {
   width: 280px;
   border: 1px solid #E5E9F2;
   font-size: 0.8rem;
-  padding-left: 0.5em;
+  padding-left: 0.7em;
 }
 
 #connection_button {
