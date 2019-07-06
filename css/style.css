@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: #3b5b94;
+  background-color: #395A93;
   height: 90px;
   display: flex;
   flex-direction: row;
@@ -21,6 +21,7 @@ body {
 .logo {
   margin-left: 10em;
   margin-right: 0.5em;
+  width: 14%;
 }
 
 .create_account {
@@ -30,6 +31,7 @@ body {
   padding: 0.75em 1em;
   font-size: 0.75rem;
   border-radius: 3px;
+  margin-left: 0.5em;
 }
 
 .create_account:hover {
@@ -65,7 +67,7 @@ body {
 #connection_button {
   background-color: #4266B2;
   color: white;
-  height: 50px;
+  height: 45px;
   width: 290px;
   border: 0px;
   border-radius: 3px;
@@ -106,11 +108,13 @@ body {
   background-color: white;
   position: absolute;
   padding: 0em 0.725em;
-  top: -27px;
+  top: -26px;
   left: 125px;
+  font-size: 0.9rem;
 }
 
 #bottom_button {
   font-size: 0.9rem;
   padding: 1em 2em;
+  margin: 0;
 }
