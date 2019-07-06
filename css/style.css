@@ -23,7 +23,7 @@ body {
   margin-right: 0.5em;
 }
 
-#create_account {
+.create_account {
   background-color: #42B72A;
   color: white;
   border: 0px;
@@ -32,7 +32,7 @@ body {
   border-radius: 3px;
 }
 
-#create_account:hover {
+.create_account:hover {
   background-color: #36A421;
   cursor: pointer;
 }
@@ -40,7 +40,7 @@ body {
 .connection_window {
   background-color: white;
   width: 600px;
-  height: 400px;
+  height: 420px;
   margin: auto;
   margin-top: 5em;
   border-radius: 5px;
@@ -48,25 +48,69 @@ body {
   text-align: center;
 }
 
-.connection_window p {
-  margin-top: 3em;
+.connect_message {
+  margin-top: 2em;
   margin-bottom: 1.5em;
   font-size: 1.1rem;
 }
 
-.connection_form p {
-  margin: 0.7em 0em;
-}
-
 .connection_form p input {
-  height: 30px;
-  width: 270px;
+  height: 35px;
+  width: 280px;
   border: 1px solid #E5E9F2;
   font-size: 0.8rem;
   padding-left: 0.5em;
 }
 
 #connection_button {
-  background-color: #3b5b94;
+  background-color: #4266B2;
   color: white;
+  height: 50px;
+  width: 290px;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  padding: 0;
+}
+
+#connection_button:hover {
+  background-color: #3b5b94;
+  cursor: pointer;
+}
+
+.forgot_info {
+  font-size: 0.725rem;
+  margin: 1.4em auto;
+}
+
+.forgot_info a {
+  text-decoration: none;
+  color: #3b5b94;
+}
+
+.forgot_info a:hover {
+  text-decoration: underline;
+}
+
+.options {
+  border-top: 1px solid #CCD0D6;
+  width: 290px;
+  height: 10px;
+  margin: 2em auto 1em auto;
+  position: relative;
+  padding: 0;
+
+}
+
+.options p {
+  background-color: white;
+  position: absolute;
+  padding: 0em 0.725em;
+  top: -27px;
+  left: 125px;
+}
+
+#bottom_button {
+  font-size: 0.9rem;
+  padding: 1em 2em;
 }
